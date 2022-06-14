@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int Phy, Chem, CS, Eng,sumofmrks,avg,percentage,totalofonesub;
+    scanf("%d" "%d" "%d" "%d" "%d", &Phy, &Chem, &CS, &Eng, &totalofonesub);
+    sumofmrks=Phy+Chem+CS+Eng;
+    avg=sumofmrks/(totalofonesub*5);
+    percentage=avg*100;
+    printf("The sum of marks out of 500 is %d", sumofmrks);
+    printf("The average of the marks is %d", avg);
+    printf("The percentage is %d", percentage);
+}
